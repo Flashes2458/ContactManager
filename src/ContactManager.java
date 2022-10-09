@@ -61,7 +61,7 @@ public class ContactManager {
             Scanner input = new Scanner(System.in);
             System.out.print("输入姓名：");
             String name = input.next();
-            System.out.print("请输入性别：");
+            System.out.print("请输入性别(1表示男，2表示女)：");
             int sex = input.nextInt();
             System.out.print("请输入年龄：");
             int age = input.nextInt();
